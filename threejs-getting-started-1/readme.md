@@ -1,6 +1,6 @@
 # Three.js First Tutorial
 
-![Alt text](/screenshots/screen.jpg?raw=true 'Screenshot of final result')
+![Alt text](screenshots/screen.jpg?raw=true 'Screenshot of final result')
 
 ## Setup
 
