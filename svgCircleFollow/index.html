@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <button>View the Experience</button>
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 500 500"
+    >
+      <title>Circular Text Path</title>
+      <defs>
+        <path
+          id="textcircle"
+          d="M250,400
+                 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+          transform="rotate(12,250,250)"
+        />
+      </defs>
+      <rect width="100%" height="100%" fill="none" />
+      <text>
+        <textPath
+          xlink:href="#textcircle"
+          aria-label="View the experience."
+          textLength="942"
+        >
+          VIEW THE EXPERIENCE
+        </textPath>
+      </text>
+    </svg>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <script src="js/script.js"></script>
+</html>
